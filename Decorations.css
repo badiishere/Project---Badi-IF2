@@ -2,8 +2,8 @@
 
 
 .indexheader {
-    background-color: rgb(18, 88, 65);
-    border: 5px solid rgb(9, 44, 32);
+    background-color: #0046FF;
+    border: 5px solid #002383;
     color: rgb(255, 255, 255);
     display: flex;
     height: 100px;
@@ -32,7 +32,7 @@
 
 .bodyindex {
     text-align: center;
-    background-color: rgb(0, 94, 0);
+    background-color: #73C8D2;
     color: white;
     background-image: url(Pictures/IndexBackground.webp);
     background-position: center;
@@ -88,7 +88,15 @@
     background-position: center;
     border: 5px solid #746735;
     color: rgb(255, 168, 168);
-    
+}
+
+.bigupdate {
+    color: rgb(0, 111, 131);
+    font-weight: bolder;
+}
+.midupdate {
+    color: rgb(0, 104, 0);
+    font-weight: bold;
 }
 
 
@@ -111,21 +119,26 @@
 
 
 header {
-    background-color: rgb(18, 88, 65);
-    border: 5px solid rgb(9, 44, 32);
+    background-color: #0046FF;
+    border: 5px solid #002383;
     color: rgb(255, 255, 255);
     display: flex;
     height: 100px;
     padding: 30px;
     border-radius: 20px;
 }
+body {
+    background-color: #73C8D2;
+}
 header h1 {
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    font-size: 40px;
 }
 nav {
     margin-left: auto;
     text-align: center;
+    
 }
 nav ul {
     list-style: none;
@@ -133,6 +146,8 @@ nav ul {
     padding: 10px;
     display: flex;
     justify-content: center;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 nav ul li {
     position: relative;
@@ -185,9 +200,9 @@ nav ul li:hover ul {
 }
 
 aside {
-    background-color: rgb(126, 61, 0);
-    border: 5px solid rgb(63, 30, 0);
-    color: white;
+    background-color: #F5F1DC;
+    border: 5px solid #9b9889;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -199,8 +214,8 @@ aside h1{
 }
 footer {
     color: white;
-    background-color: blue;
-    border: 5px solid rgb(0, 0, 87);
+    background-color: #FF9013;
+    border: 5px solid #975203;
     font-weight: bold;
     text-align: center;
     border-radius: 20px;
@@ -231,59 +246,226 @@ a {
 
 
 .bodyberandabajo {
-    background-image: url(Pictures/Logo\ Pantai\ Labuan\ Bajo.jpeg);
+    display: block;
+    justify-content: center;
+}
+.logoberandabajo {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    margin: auto auto;
+    height: 500px;
+    background-image: url(Pictures/Logo\ Beranda\ Labuan\ Bajo.jpeg);
     background-position: center;
     background-size: cover;
+    padding: 30px;
 }
-.h1berandabajo {
-    text-align: center;
-    text-shadow: 0 0 10px black;
-    color: white;
-    font-weight: bold;
+.logoberandabajo h1 {
+    font-size: 75px;
 }
-.mainberandabajo {
+.main1berandabajo {
     display: flex;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    height: 250px;
-    border: none;
-    text-shadow: 0 0 10px black;
+    background-color: #154D71;
+    height: 400px;
+    justify-content: left;
 }
-body main section a  h2 {
+.sec {
+    background-color: #1873ac;
+    padding: 30px;
+    text-align: center;
+    width: 150%;
     color: white;
+}
+.sec2 {
+    background-color: #154D71;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+}
+.fotomain1berandabajo {
+    width: 90%;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Labuan Bajo - Profil */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyprofil {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Pictures/IndexBackground.webp);
+    background-position: center;
+    background-size: cover;
     text-shadow: 0 0 10px black;
 }
-.sectionberandabajo {
-    margin: 0;
-    flex:3px;
-    border:none;
-    padding: 20px;
+.profilmain {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.profilsection {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
     text-decoration: none;
+    
 }
-.articleberandabajo{
-    border: none;
-    background-image: url(Pictures/Logo\ Pantai\ Labuan\ Bajo.jpeg);
+.profilsectionh1 {
+    margin-top: 100px;
+}
+.profilsection1 {
+    background-image: url(Pictures/Labuan\ Bajo\,\ adat.jpg);
     background-size: cover;
-    color: rgb(255, 255, 255);
-    font-size:12px;
-    background-color: rgb(16, 61, 46);
-    border-radius: 10px;
-    margin:5px;
-    padding: 5px;
-    box-shadow: 10px 10px rgb(18, 44, 35);
-    margin-bottom:15px;
-    min-height: 120px;  
+    background-position: center;
+    border: 5px solid #ff6600;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
 }
-.articlebb2 {
-    background-image: url();
+.profilsection1:hover {
+    background-image: url(Pictures/Labuan\ Bajo\ Adat\ Kuadrat.jpeg);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 138, 42);
+    color: #ff6600;
 }
-.articlebb3 {
-    background-image: url();
+.profilsection2 {
+    background-image: url(Pictures/Labuan\ Bajo\ Hotel.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #028dff;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
 }
-.articlebb4 {
-    background-image: url();
+.profilsection2:hover {
+    background-image: url(Pictures/Labuan\ Bajo\ Kota.jpg);
+    border: 5px solid rgb(0, 26, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(37, 59, 255);
+    color: #008cff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Labuan Bajo - Berita -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyberita {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Pictures/IndexBackground.webp);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.beritamain {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.beritasection {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.beritasectionh1 {
+    margin-top: 100px;
+}
+.beritasection1 {
+    background-image: url(Pictures/Labuan\ Bajo\ Terkait\ sesungguhnya\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff6600;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
+}
+.beritasection1:hover {
+    background-image: url(Pictures/Labuan\ Bajo\ Terkait\ sesungguhnya\ 2.jpeg);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 138, 42);
+    color: #ff6600;
+}
+.beritasection2 {
+    background-image: url(Pictures/Labuan\ Bajo\ Event.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ffffff;
+    color: rgb(99, 123, 255);
+    transition: 0.25s all linear;
+}
+.beritasection2:hover {
+    background-image: url(Pictures/Labuan\ Bajo\ Eventt.jpeg);
+    border: 5px solid rgb(0, 26, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(37, 59, 255);
+    color: #dbefff;
+}
+
+
+
+
 
 
 
@@ -324,14 +506,14 @@ body main section a  h2 {
     background-color: white;
     margin: auto auto;
     border-radius: 10px;
-    border: 3px solid red;
+    border: 3px solid rgb(255, 77, 246);
     width:400px;
     box-shadow: 0 0 10px black;
 }
 .h1formkontak {
     text-align: center;
-    background-color: red;
-    border: 5px solid rgb(151, 7, 36);
+    background-color: rgb(247, 0, 255);
+    border: 5px solid rgb(105, 0, 105);
     border-radius: 20px;
     width: 20%;
     margin: auto;
