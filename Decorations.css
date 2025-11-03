@@ -262,21 +262,23 @@ a {
 }
 .logoberandabajo h1 {
     font-size: 75px;
+    margin-top: 200px;
 }
 .main1berandabajo {
     display: flex;
     background-color: #154D71;
     height: 400px;
     justify-content: left;
+    border: 5px solid #113F67;
 }
-.sec {
+.section1main1berandabajo {
     background-color: #1873ac;
     padding: 30px;
     text-align: center;
     width: 150%;
     color: white;
 }
-.sec2 {
+.section2main1berandabajo {
     background-color: #154D71;
     padding: 30px;
     text-align: justify;
@@ -286,9 +288,36 @@ a {
     width: 90%;
     border-radius: 30px;
 }
+.main2BB {
+    display: flex;
+    background-color: #154D71;
+    height: 600px;
+    justify-content: right;
+    border:5px solid #4300FF;
+}
+.sec1main2BB {
+    background-color: #0065F8;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+}
+.sec2main2BB {
+    background-color: #00CAFF;
+    padding: 30px;
+    text-align: center;
+    width: 150%;
+    color: white;
+}
+.fotomain2BB {
+    width: 90%;
+    border-radius: 30px;
+}
 
-
-
+h3 i a {
+    text-shadow: 0 0 10px black;
+    color: white;
+    text-decoration: underline;
+}
 
 
 
@@ -375,6 +404,141 @@ a {
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(37, 59, 255);
     color: #008cff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Labuan Bajo - Sejarah/Daya Tarik Wisata -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodySejBB {
+    display: block;
+}
+.main1SejBB {
+    width: 80%;
+    margin: auto auto;
+    background-color: white;
+    border: 5px solid black;
+    min-height: auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+.sec1main1SejBB {
+    text-align: center;
+    background-color: green;
+    background-image: url(Pictures/Dusk_&_Dawn_in_Kalong_Island\,_Labuan_Bajo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 0 0 10px black;
+    height: 500px
+}
+.sec1main1SejBB h1 {
+    margin-top: 240px;
+}
+.foto1main1SejBB {
+    width: 250px;
+    height: 175px;
+    border-radius: 20px;
+}
+.sec2main1SejBB {
+    text-align: justify;
+    color: black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Labuan Bajo - Fasilitas */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyFasBB {
+    display: block;
+}
+.main1FasBB {
+    display: flex;
+    border: 5px solid black;
+    background-color: white;
+    margin: auto auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    min-height: auto;
+    padding: 30px;
+    justify-content: center;
+    border-radius: 30px;
+}
+.sec1main1FasBB {
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+.sec2main1FasBB {
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+.sec3main1FasBB {
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+.Fotomain1FasBB {
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
 }
 
 
@@ -478,7 +642,187 @@ a {
 
 
 
-/* -- Form Kontak -- */
+/* -- Labuan Bajo - Berita - Terkait Pantai -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyBTPBB {
+    display: block;
+}
+.main1BTPBB {
+    display: block;
+    background-color: white;
+    border: 5px solid black;
+    margin: auto auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    padding: 20px;
+    min-height: auto;
+    border-radius: 30px;
+}
+.sec1main1BTPBB {
+    display: flex;
+    justify-content: right;
+}
+.div1sec1main1BTPBB {
+    color: black;
+    text-align: justify;
+    padding: 15px;
+}
+.div2sec1main1BTPBB {
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.fotosecBTPBB {
+    width: 250px;
+    height: 175px;
+    border-radius: 20px;
+}
+.sec2main1BTPBB {
+    display: flex;
+    justify-content: right;
+}
+.div1sec2main1BTPBB {
+    color: black;
+    text-align: justify;
+    padding: 15px;
+}
+.div2sec2main1BTPBB {
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.sec3main1BTPBB {
+    display: flex;
+    justify-content: right;
+}
+.div1sec3main1BTPBB {
+    color: black;
+    text-align: justify;
+    padding: 15px;
+}
+.div2sec3main1BTPBB {
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Labuan Bajo - Berita - Events -- */
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyBEBB {
+    display: block;
+}
+.main1BEBB {
+    display: block;
+    background-color: white;
+    border: 5px solid black;
+    margin: auto auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    padding: 20px;
+    min-height: auto;
+    border-radius: 30px;
+}
+.sec1main1BEBB {
+    display: flex;
+    justify-content: right;
+}
+.div1sec1main1BEBB {
+    color: black;
+    text-align: justify;
+    padding: 15px;
+}
+.div2sec1main1BEBB {
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.fotosecBEBB {
+    width: 250px;
+    height: 175px;
+    border-radius: 20px;
+}
+.sec2main1BEBB {
+    display: flex;
+    justify-content: right;
+}
+.div1sec2main1BEBB {
+    color: black;
+    text-align: justify;
+    padding: 15px;
+}
+.div2sec2main1BEBB {
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.sec3main1BEBB {
+    display: flex;
+    justify-content: right;
+}
+.div1sec3main1BEBB {
+    color: black;
+    text-align: justify;
+    padding: 15px;
+}
+.div2sec3main1BEBB {
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Labuan Bajo - Form Kontak -- */
 
 
 
@@ -535,3 +879,694 @@ a {
     box-shadow: 0 0 10px yellow;
     transform: scale(1.1)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Pulau Weh - Beranda -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyBerPW {
+    display: block;
+    justify-content: center;
+}
+.logoBerPW {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    margin: auto auto;
+    height: 500px;
+    background-image: url(Pictures/Pulau\ Weh\ Beranda\ Logo.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+.logoBerPW h1 {
+    font-size: 75px;
+    margin-top: 200px;
+}
+.main1BerPW {
+    display: flex;
+    background-color: #154D71;
+    height: 300px;
+    justify-content: left;
+    border: 5px solid #113F67;
+}
+.sec1main1BerPW {
+    background-color: #A8FBD3;
+    padding: 30px;
+    text-align: center;
+    width: 150%;
+    color: rgb(0, 0, 0);
+}
+.sec2main1BerPW {
+    background-color: #4FB7B3;
+    padding: 30px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.fotomain1BerPW {
+    width: 90%;
+    border-radius: 30px;
+}
+.main2BerPW {
+    display: flex;
+    background-color: #154D71;
+    height: 600px;
+    justify-content: right;
+    border:5px solid #4300FF;
+}
+.sec1main2BerPW {
+    background-color: #637AB9;
+    padding: 30px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.sec2main2BerPW {
+    background-color: #31326F;
+    padding: 30px;
+    text-align: center;
+    width: 150%;
+    color: white;
+}
+.fotomain2BerPW {
+    width: 90%;
+    border-radius: 30px;
+}
+
+h3 i a {
+    text-shadow: 0 0 10px black;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Pulau Weh - Profil -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyProPW {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Pictures/Pulau\ Weh\ Beranda\ Logo.webp);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.main1ProPW {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.secmain1ProPW {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.h1secmain1ProPW {
+    margin-top: 100px;
+}
+.sec1main1ProPW {
+    background-image: url(Pictures/Pulau\ Weh\ Profil\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #003cff;
+    color: #00ff00;
+    transition: 0.25s all linear;
+}
+.sec1main1ProPW:hover {
+    background-image: url(Pictures/Pulau\ Weh\ Profil\ 1\ Hover.jpeg);
+    border: 5px solid #00e7fc;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 190, 136);
+    color: #4bff69;
+}
+.sec2main1ProPW {
+    background-image: url(Pictures/Pulau\ Weh\ Profil\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #3a9e00;
+    color: rgb(56, 86, 255);
+    transition: 0.25s all linear;
+}
+.sec2main1ProPW:hover {
+    background-image: url(Pictures/Pulau\ Weh\ Profil\ 2\ hover.jpeg);
+    border: 5px solid rgb(54, 255, 28);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(59, 255, 53);
+    color: #2affed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Pulau Weh - Berita -- */
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyBeriPW {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Pictures/Pulau\ Weh\ Beranda\ Logo.webp);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.main1BeriPW {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.secmain1BeriPW {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.h1secmain1BeriPW {
+    margin-top: 100px;
+}
+.sec1main1BeriPW {
+    background-image: url(Pictures/Pulau\ Weh\ Berita\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #003cff;
+    color: #00ff00;
+    transition: 0.25s all linear;
+}
+.sec1main1BeriPW:hover {
+    background-image: url(Pictures/Pulau\ Weh\ Berita\ 1\ Hover.jpeg);
+    border: 5px solid #00e7fc;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 190, 136);
+    color: #4bff69;
+}
+.sec2main1BeriPW {
+    background-image: url(Pictures/Pulau\ Weh\ Berita\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #3a9e00;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
+}
+.sec2main1BeriPW:hover {
+    background-image: url(Pictures/Pulau\ Weh\ Berita\ 2\ Hover.jpeg);
+    border: 5px solid rgb(54, 255, 28);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(59, 255, 53);
+    color: #2affed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Pulau Weh - Kontak -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyKonPW {
+    background-image: url(Pictures/Pulau\ Weh\ Beranda\ Logo.webp);
+    background-size:cover;
+    background-position: center;
+    padding: 0;
+    height: 300px;
+}
+.formKonPW {
+    background-color: white;
+    margin: auto auto;
+    border-radius: 10px;
+    border: 3px solid rgb(77, 104, 255);
+    width:400px;
+    box-shadow: 0 0 10px black;
+}
+.h1KonPW {
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    border: 5px solid rgb(0, 72, 105);
+    border-radius: 20px;
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.buttonformKonPW {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    transition: all 0.1s linear;
+}
+.buttonformKonPW:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(231, 231, 231);
+    box-shadow: 0 0 10px yellow;
+    transform: scale(1.1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Pulau Derawan - Beranda -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyBerPD {
+    display: block;
+    justify-content: center;
+}
+.logoBerPD {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    margin: auto auto;
+    height: 500px;
+    background-image: url(Pictures/Pulau\ Derawan\ Beranda\ Logo\ New.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+.logoBerPD h1 {
+    font-size: 75px;
+    margin-top: 200px;
+}
+.main1BerPD {
+    display: flex;
+    background-color: #154D71;
+    height: 500px;
+    justify-content: left;
+    border: 5px solid #113F67;
+}
+.sec1main1BerPD {
+    background-color: #A8FBD3;
+    padding: 30px;
+    text-align: center;
+    width: 150%;
+    color: rgb(0, 0, 0);
+}
+.sec2main1BerPD {
+    background-color: #4FB7B3;
+    padding: 30px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.fotomain1BerPD {
+    width: 90%;
+    border-radius: 30px;
+}
+.main2BerPD {
+    display: flex;
+    background-color: #154D71;
+    height: 600px;
+    justify-content: right;
+    border:5px solid #4300FF;
+}
+.sec1main2BerPD {
+    background-color: #637AB9;
+    padding: 30px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.sec2main2BerPD {
+    background-color: #31326F;
+    padding: 30px;
+    text-align: center;
+    width: 150%;
+    color: white;
+}
+.fotomain2BerPD {
+    width: 90%;
+    border-radius: 30px;
+}
+
+h3 i a {
+    text-shadow: 0 0 10px black;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Pulau Derawan - Profil -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyProPD {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Pictures/Pulau\ Derawan\ Beranda\ Logo\ New.webp);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.main1ProPD {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.secmain1ProPD {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.h1secmain1ProPD {
+    margin-top: 100px;
+}
+.sec1main1ProPD {
+    background-image: url(Pictures/Pulau\ Derawan\ Profil\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #135f03;
+    color: #00ff15;
+    transition: 0.25s all linear;
+}
+.sec1main1ProPD:hover {
+    background-image: url(Pictures/Pulau\ Derawan\ Profil\ 1\ Hover.jpeg);
+    border: 5px solid #ffc792;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 158, 78);
+    color: #ff4800;
+}
+.sec2main1ProPD {
+    background-image: url(Pictures/Pulau\ Derawan\ Profil\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #530000;
+    color: rgb(255, 0, 0);
+    transition: 0.25s all linear;
+}
+.sec2main1ProPD:hover {
+    background-image: url(Pictures/Pulau\ Derawan\ Profil\ 2\ hover.jpeg);
+    border: 5px solid rgb(255, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 0, 0);
+    color: #ff6666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- Pulau Derawan - Berita -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyBeriPD {
+    text-align: center;
+    background-color: rgb(0, 94, 0);
+    color: white;
+    background-image: url(Pictures/Pulau\ Derawan\ Beranda\ Logo\ New.webp);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+}
+.main1BeriPD {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+}
+.secmain1BeriPD {
+    text-shadow: 0 0 10px black;
+    width: 25%;
+    height: 80%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+    
+}
+.h1secmain1BeriPD {
+    margin-top: 100px;
+}
+.sec1main1BeriPD {
+    background-image: url(Pictures/Pulau\ Derawan\ Berita\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #003cff;
+    color: #00ff00;
+    transition: 0.25s all linear;
+}
+.sec1main1BeriPD:hover {
+    background-image: url(Pictures/Pulau\ Derawan\ Berita\ 1\ Hover.jpeg);
+    border: 5px solid #00e7fc;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(255, 190, 136);
+    color: #4bff69;
+}
+.sec2main1BeriPD {
+    background-image: url(Pictures/Pulau\ Derawan\ Berita\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #3a9e00;
+    color: rgb(0, 38, 255);
+    transition: 0.25s all linear;
+}
+.sec2main1BeriPD:hover {
+    background-image: url(Pictures/Pulau\ Derawan\ Berita\ 2\ Hover.jpeg);
+    border: 5px solid rgb(54, 255, 28);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(59, 255, 53);
+    color: #2affed;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -- Pulau Derawan - Kontak -- */
+
+
+
+
+
+
+
+
+
+
+
+.bodyKonPD {
+    background-image: url(Pictures/Pulau\ Derawan\ Beranda\ Logo\ New.webp);
+    background-size:cover;
+    background-position: center;
+    padding: 0;
+    height: 300px;
+}
+.formKonPD {
+    background-color: white;
+    margin: auto auto;
+    border-radius: 10px;
+    border: 3px solid rgb(77, 255, 122);
+    width:400px;
+    box-shadow: 0 0 10px black;
+}
+.h1KonPD {
+    text-align: center;
+    background-color: rgb(0, 255, 128);
+    border: 5px solid rgb(0, 105, 47);
+    border-radius: 20px;
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.buttonformKonPD {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    transition: all 0.1s linear;
+}
+.buttonformKonPD:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(231, 231, 231);
+    box-shadow: 0 0 10px yellow;
+    transform: scale(1.1)
+}
+
+
